@@ -1,0 +1,120 @@
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+} 
+.item {
+    background-color: #4ed85a;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+  }
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column; 
+} 
+.item1 {
+    background-color: #9f3333;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+  } 
+  
+  .external{
+    color:crimson;
+    font-style: italic;
+  }
+
+  .container {
+    position: relative; /* Establishes a positioning context for relative positioning */
+    width: 300px;
+    height: 200px;
+    background-color: #551212;
+  }
+  
+  .box.relative {
+    position: relative; /* Relative positioning */
+    top: 20px; /* Moves the box 20 pixels down from its normal position */
+    left: 10px; /* Moves the box 10 pixels to the right from its normal position */
+    padding: 10px;
+    background-color: #3498db;
+  }
+  .container1 {
+    position: relative; /* Establishes a positioning context for absolute positioning */
+    width: 300px;
+    height: 200px;
+    background-color: #1e3166;
+  }
+  
+  .box.absolute {
+    position: absolute; /* Absolute positioning */
+    top: 50px; /* Places the box 50 pixels down from the top of its closest positioned ancestor (.container) */
+    right: 20px; /* Places the box 20 pixels from the right edge of its closest positioned ancestor (.container) */
+    padding: 10px;
+    background-color: #e74c3c;
+  }
+  .z-index {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid;
+  }
+
+  .container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .red {
+    background-color: red;
+    left: 20px;
+    top: 20px;
+    z-index: 3; /* Higher z-index */
+  }
+  
+  .blue {
+    background-color: blue;
+    left: 40px;
+    top: 40px;
+    z-index: 2; /* Medium z-index */
+  }
+  
+  .green {
+    background-color: green;
+    left: 60px;
+    top: 60px;
+    z-index: 1; /* Lower z-index */
+  }
+
+  .Margin {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #b658de;
+    margin: 10px;
+    background-color:#4ed85a ;
+  }
+  .padding {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #96d419;
+    padding: 50px;
+    background-color:#a22867 ;
+  }
+  
+  
+
+  
+  
+  
